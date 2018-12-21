@@ -9,10 +9,10 @@ tags:
     - Unity3D
 ---
 
-一、在Assets\Plugins\Android\res目录下创建对应语言的<color=red>values-xx<color/>文件夹。（xx代表国家代码，values文件夹是默认的语言、values-zh-rCN代表中国大陆、values-zh-rTW代表中国台湾）
+## 在Assets\Plugins\Android\res目录下创建对应语言的**values-xx**文件夹。（xx代表国家代码，values文件夹是默认的语言，values-zh-rCN代表中国大陆，values-zh-rTW代表中国台湾）
 
 
-二、在values文件夹新建strings.xml文件内容如下，需修改<color=red>app_name<color/>字段对应的应用名称。
+## 在values文件夹新建**strings.xml**文件内容如下，修改**app_name**字段对应的应用名称。
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -21,7 +21,7 @@ tags:
 </resources>
 ```
 
-values-zh-rCN为简体中文：
+* values-zh-rCN 使用简体中文
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -29,7 +29,7 @@ values-zh-rCN为简体中文：
 </resources>
 ```
 
-values-zh-rTW为繁体中文
+* values-zh-rTW 使用繁体中文
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -37,4 +37,4 @@ values-zh-rTW为繁体中文
 </resources>
 ```
 
-三、打包发布。
+## 打包发布。
