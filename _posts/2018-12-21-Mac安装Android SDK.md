@@ -10,7 +10,7 @@ tags:
 ---
 
 ## 下载Mac版本的Android命令行工具
-地址：https://developer.android.google.cn/studio/
+[官网链接](https://developer.android.google.cn/studio/)
 
 ## Mac终端打开SDK Manager的图形界面
 Ⅰ cd进入Android命令行工具的tools目录下
