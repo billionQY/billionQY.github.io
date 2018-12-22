@@ -15,7 +15,7 @@ gems: [jekyll-paginate]
 # SNS settings
 RSS: false
 
-#zhihu_username:     lele-feng-15
+#zhihu_username:     billionQY
 github_username:    billionQY
 #douban_username:    69635011
 #weibo_username:     2776591135
@@ -67,7 +67,7 @@ ba_track_id: 207a182a0a79e8a76bfd02381045166f
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "追逐卓越，成功就会在不经意间追上你！"
+sidebar-about-description: "追逐卓越\n成功就会在不经意间追上你！"
 sidebar-avatar: /img/avatar-girl.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
