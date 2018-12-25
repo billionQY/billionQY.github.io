@@ -381,8 +381,10 @@ body {
 <body>
 	<CANVAS id="canvas">你的浏览器不支持HTML5画布技术，请使用谷歌浏览器。</CANVAS> <!-- dhteumeuleu nav menu --> 
 	<script src="res/jquery-1.7.2.min.js"></script>
-	<audio src="https://billionqy.github.io/n55!w!/1.mp3" autostart="true" loop="true" hidden="true">
+	<audio id="audio" src="周杰伦-告白气球.mp3" autoplay="autoplay"></audio>
+	$(function(){
+		$("#audio")[0].play();
+	})
 </body>
 </html>
-
 
