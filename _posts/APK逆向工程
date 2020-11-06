@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "APK逆向工程"
+subtitle:   "Android"
+date:       2020-11-06 09:15:53
+author:     "billionQY"
+header-img: "img/in-post/default-bg.jpg"
+tags:
+    - Android
+---
+
+## 使用Apktool反编译和再打包
+* 安装：[Apktool](https://ibotpeaches.github.io/Apktool/install/)。
+* 反编译apk：cmd进入命令行，输入 ```apktool d test.apk```。
+* 再打包apk：cmd进入命令行，输入 ```apktool b test```。
+
+* 弹出框点击Finish按钮即添加完成。
+
+## 使用keytool生成签名文件
+* ```keytool -genkey -alias test -keyalg RSA -validity20000 -keystore test.jks```
+* 命令行执行上面语句后会生成证书文件 test.keystore。
+
+## 使用jarsigner.exe重新签名
+* 安装：JDK安装后就有了，默认路径为```C:\Program Files\Java\jdk1.8.0_131\bin\jarsigner.exe```。
+* 签名：```jarsigner -keystore C:\myKey.key -signedjar apk-signed.apk apk-unsigned.apk myKey```
